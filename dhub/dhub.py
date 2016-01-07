@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restful import Api
-from models.model import Music
+from models.music import Music
 
 app = Flask(__name__)
 api = Api(app)
