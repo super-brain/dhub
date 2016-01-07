@@ -4,7 +4,7 @@ from model import BaseModel
 
 class Music(BaseModel):
     url=''
-	def __init__(self, url):
+    def __init__(self, url):
         self.url = url
 
     def get(self):

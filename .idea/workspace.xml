@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bd806e5-923a-48d4-a92d-4998b24035b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dhub/dhub.py" afterPath="$PROJECT_DIR$/dhub/dhub.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dhub/models/model.py" afterPath="$PROJECT_DIR$/dhub/models/model.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dhub/models/music.py" afterPath="$PROJECT_DIR$/dhub/models/music.py" />
     </list>
     <ignored path="dhub.iws" />
