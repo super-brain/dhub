@@ -1,7 +1,10 @@
 __author__ = 'starnet'
 from flask_restful import Resource
-
+import json
 
 class BaseModel(Resource):
     def get(self):
-        return {'url': 'http://mr7.doubanio.com/582708ab0bc27ab9394300ebb729750d/1/fm/song/p34721_128k.mp4'}
+        return self.tojson()
+
+    def tojson(self):
+        return json.dumps(self, default=lambda obj: obj.__dict__)
